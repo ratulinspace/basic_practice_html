@@ -10,6 +10,7 @@ body {
 
 section {
     display: flex;
+    margin-bottom: 40px;
 }
 
 .w-half {
@@ -18,13 +19,13 @@ section {
 }
 
 .w-half img {
-    width: 60%;
+    width: 80%;
 }
 
-#hireMe-btn {
+.orange-btn {
     color: whitesmoke;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-weight: 500;
     background-image: linear-gradient(tomato, orangered);
     border: 1px solid lightgray;
@@ -34,4 +35,10 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
